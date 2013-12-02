@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BTC Charts</string>
+
+    <!-- Menu Actions -->
+    <string name="action_refresh">Refresh</string>
+</resources>
