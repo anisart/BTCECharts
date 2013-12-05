@@ -10,5 +10,50 @@
             android:layout_height="wrap_content"
             android:text="Prices"/>
 
+    <LinearLayout
+            android:id="@+id/btc_usd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last: "/>
+
+        <TextView
+                android:id="@+id/last_usd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Low: "/>
+
+        <TextView
+                android:id="@+id/low_usd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" High: "/>
+
+        <TextView
+                android:id="@+id/high_usd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"/>
+
 </LinearLayout>
 

@@ -8,9 +8,4 @@
         android:icon="@drawable/ic_menu_refresh"
         android:showAsAction="always"/>
 
-    <item
-        android:id="@+id/action_request"
-        android:title="REQUEST"
-        android:showAsAction="never"/>
-
 </menu>
